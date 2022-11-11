@@ -1,0 +1,24 @@
+[data-md-color-scheme="aqua"] {
+  --md-primary-fg-color:        #1904DA;
+  --md-primary-fg-color--light: #08B1D5;
+  --md-primary-fg-color--dark:  #183278;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #1904DA; 
+  --md-primary-fg-color--light: #00FFE4;
+  --md-primary-fg-color--dark:  #183278;
+  --md-typeset-a-color:var(--md-primary-fg-color--light);
+} 
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #1904DA; 
+  --md-primary-fg-color--light: #08B1D5;
+  --md-primary-fg-color--dark:  #183278;
+}
+
+[data-md-color-scheme="aqua-dark"] {
+  --md-primary-fg-color:        #1904DA;
+  --md-primary-bg-color:        #fff;
+  --md-default-bg-color:        #07242D;
+
+}

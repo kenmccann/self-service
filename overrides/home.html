@@ -1,0 +1,184 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="{{ 'assets/stylesheets/home.css' | url }}" />
+<style>
+    :root {
+        --ps-primary-color: #183278;
+        --ps-dark-text-color: #777777;
+        --md-default-bg-color: #ffffff;
+    }
+
+    .md-header {
+        position: initial
+    }
+
+    .md-main__inner {
+        margin: 0
+    }
+
+    .md-content {
+        display: none
+    }
+
+    .md-container {
+        background-color: #fff;
+    }
+
+    .ps-container {
+        padding-top: 1rem;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: rgb(234,243,250)' /></svg>") no-repeat bottom, linear-gradient(to bottom, var(--md-primary-fg-color), var(--ps-primary-color) 99%, #fff 99%)
+    }
+
+    .ps-home {
+        margin: 0 .8rem;
+        color: var(--md-primary-bg-color)
+    }
+
+    .ps-home h1 {
+        margin-bottom: 1rem;
+        color: currentColor;
+        font-weight: 700
+    }
+
+    .ps-home__content {
+        padding-bottom: 6rem
+    }
+
+    .ps-home .md-button {
+        margin-top: .5rem;
+        margin-right: .5rem;
+        color: var(--md-primary-bg-color)
+    }
+
+    .ps-home .md-button--primary {
+        background-color: var(--md-primary-bg-color);
+        color: var(--ps-primary-color);
+        border-color: var(--md-primary-bg-color)
+    }
+
+    .ps-home .md-button:focus,
+    .ps-home .md-button:hover {
+        background-color: var(--md-accent-fg-color);
+        color: var(--md-default-bg-color);
+        border-color: var(--md-accent-fg-color)
+    }
+
+    @media screen and (max-width:70em) {
+        .ps-home h1 {
+            font-size: 1.4rem
+        }
+
+        .ps-home__image {
+            text-align: left;
+        }
+
+        .ps-home__image img {
+            max-width: 15rem;
+        }
+    }
+
+    @media screen and (min-width:70em) {
+        .md-sidebar--secondary {
+            display: none
+        }
+
+        .ps-home {
+            display: flex;
+            align-items: stretch
+        }
+
+        .ps-home__content {
+            max-width: 30rem;
+            margin-top: 3.5rem;
+            padding-bottom: 14vw
+        }
+
+        .ps-home__image {
+            order: 1;
+            margin-left: auto;
+            margin-top: 5.5rem;
+        }
+
+        .ps-home__image img {
+            max-width: 20rem;
+        }
+    }
+
+    @media screen and (min-width:76.25em) {
+        .md-sidebar--primary {
+            display: none
+        }
+
+        .ps-home__image {
+            margin-left: auto;
+        }
+
+        .ps-home__image img {
+            max-width: 20rem;
+        }
+    }
+</style>
+<section class="ps-container">
+    <div class="md-grid md-typeset">
+        <div class="ps-home">
+            <div class="ps-home__image">
+                <img src="assets/aqua-logo-white.svg" alt="" draggable="false">
+            </div>
+            <div class="ps-home__content">
+                <h1>Professional Services Self-Service Content Proving Grounds</h1>
+                <p>
+                    Please use this mkdocs site for building materials to support the self-service model for customer onboarding and maturity.
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="whats-next-container">
+    <div class="md-grid md-typeset">
+        <div class="component-flex">
+            <div class="pane">
+                <a href="https://teams.microsoft.com/l/channel/19%3aSNvxw3drBSj5XqHrwwAqaGxcV5Ou0cEBXyJQfhnHPm41%40thread.tacv2/General?groupId=6c2367c5-fdc4-4f98-bd65-41bf7c946768&tenantId=bc034cf3-566b-41ca-9f24-5dc49474b05e" title="Slack Link">
+                <div class="twemoji">
+                    {% include ".icons/fontawesome/brands/microsoft.svg" %}
+                </div>
+                <h2>Talk to us on Teams</h2>
+                <p class="normal-text">Interested in learning more, speaking to other experts, or finding answers?</p>
+                </a>
+            </div>
+            <div class="pane">
+                <a href="contributing/" title="Contributing Link">
+                <div class="twemoji">
+                    {% include ".icons/fontawesome/brands/github.svg" %}
+                </div>
+                <h2>Contributions Welcome</h2>
+                <p class="normal-text">Want to join the fun on Github? New users are always welcome!</p>
+                </a>
+            </div>
+            <div class="pane">
+                <a href="https://twitter.com/AquaSecTeam" title="Twitter Link">
+                <div class="twemoji">
+                    {% include ".icons/fontawesome/brands/twitter.svg" %}
+                </div>
+                <h2>Follow us on Twitter</h2>
+                <p class="normal-text">For feature announcements, interesting Aqua news, and other great things.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

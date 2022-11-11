@@ -1,0 +1,54 @@
+# Pipeline for publishing content to ps.aquasec.com automatically as the source is updated on GitHub
+# GitHub:     https://github.com/aqua-ps/aqua-ps
+# Site:       https://ps.aquasec.com
+# Maintainer: ken@aquasec.com 
+# Department: Aqua Professional Services (services@aquasec.com)
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+# Don't validate PRs, only commits to main
+pr: none
+
+# Specify Python 3.8 or newer
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.9'
+    addToPath: true
+    architecture: 'x64'
+
+# Install mkdocs and relevant plugins
+- script: |
+    pip install mkdocs-material \
+    mkdocs-include-markdown-plugin \
+    mdx-truly-sane-lists \
+    mkdocs-mermaid2-plugin \
+    mkdocs-glightbox
+  displayName: Install MkDocs Material Theme and relevant plugins
+
+# Build mkdocs site.  Output is stored in /site
+- script: mkdocs build  
+  displayName: Install the MkDocs + build
+
+# Push contents of /site to the root of the aqua-ps-docs S3 bucket
+- task: AWSCLI@1
+  inputs:
+    awsCredentials: 'AWS'
+    regionName: 'us-east-1'
+    awsCommand: 's3'
+    awsSubCommand: 'sync'
+    awsArguments: 'site/ s3://aqua-ps-docs/'
+
+# Perform CloudFront invalidation which clears the edge cache (AWS has a limit on these)
+- task: AWSCLI@1
+  retryCountOnTaskFailure: 3
+  inputs:
+    awsCredentials: 'AWS'
+    regionName: 'us-east-1'
+    awsCommand: 'cloudfront'
+    awsSubCommand: 'create-invalidation'
+    awsArguments: '--distribution-id E3W4HTIA6HB6QN --paths "/*"'

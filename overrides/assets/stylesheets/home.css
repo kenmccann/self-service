@@ -1,0 +1,47 @@
+.whats-next-container {
+  background-color: #eaf3fa;
+  text-align: center;
+}
+
+.whats-next-container .component-flex {
+  display: flex;
+  gap: 2em;
+  padding-top: 1em;
+}
+
+.whats-next-container h1 {
+  margin: 0;
+}
+
+.whats-next-container h2 {
+  color: rgba(12, 1, 219, 0.878);
+  font-size: 1.3rem;
+  margin: .6em 0 0;
+  font-weight: bold;
+}
+
+.whats-next-container .normal-text {
+  font-weight: 500;
+  font-size: .8em;
+  padding-top: 0;
+  color: rgba(12, 1, 219, 0.878);
+}
+
+.whats-next-container .twemoji {
+  color: rgba(12, 1, 219, 0.878);
+  justify-content: center;
+}
+
+.whats-next-container .twemoji,
+.whats-next-container .twemoji svg {
+  height: 3.5em;
+  width: 3.5em;
+}
+
+.whats-next-container .twemoji svg:hover {
+  color: #00ffe4;
+}
+
+.md-main {
+  background-color: #eaf3fa;
+}
