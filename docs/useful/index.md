@@ -4,7 +4,7 @@ The following resources are available to every Aqua customer with a valid subscr
 
 ## Aqua Cloud Native Wiki
 
-![Aqua Cloud Native](../)
+![Aqua Cloud Native](../image/wiki-site.png)
 Aqua has provided an introduction to many key concepts that will be needed to complete the deployment of the Aqua Platform. Many of the core cloud security and modern application development practices are described in this Wiki site and it is a great place to learn the basics of Cloud Native security. Start reading at [the Cloud Native Wiki site](https://www.aquasec.com/cloud-native-academy/cspm/cloud-security/).
 
 ## Aqua Support
