@@ -1,6 +1,6 @@
 # Project Information
-site_name: Aqua Self-Serve Depot
-site_description: 'Resources for partners and consultants to deliver Aqua Services.'
+site_name: Aqua Onboarding Portal
+site_description: 'Your Guided Path to Success with Aqua Security.'
 site_author: 'Aqua Security Software'
 site_url: 'https://ps.aquasec.com'
 
@@ -53,6 +53,8 @@ nav:
   - Overview: index.md
   - Introduction:
     - intro/index.md
+  - The Guided Path:
+    - path/index.md
   - Shift Left:
     - shiftleft/index.md
   - Shift Right:
