@@ -57,6 +57,8 @@ nav:
     - shiftleft/index.md
   - Shift Right:
     - shiftright/index.md
+  - Useful Resources:
+    - useful/index.md
 
 # Extensions
 markdown_extensions:
