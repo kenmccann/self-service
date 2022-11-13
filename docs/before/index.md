@@ -1,0 +1,3 @@
+# Before you Start
+
+This section of the Onboarding Portal is to guide customers who may need help with the key concepts that the Aqua Platform depends on and uses to secure Cloud Native applications. Please review this information and use the resources provided to further your understanding of DevSecOps and how Aqua works within pipelines or your cloud infrastruture to protect your assets and your teams from attacks. 

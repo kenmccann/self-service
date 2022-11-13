@@ -53,6 +53,8 @@ nav:
   - Overview: index.md
   - Introduction:
     - intro/index.md
+  - Before you start:
+    - before/index.md
   - The Guided Path:
     - path/index.md
   - Shift Left:
