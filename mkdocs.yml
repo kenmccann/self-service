@@ -59,6 +59,9 @@ nav:
     - path/index.md
   - Shift Left:
     - shiftleft/index.md
+    - 'Introduction to Aqua Shift Left': 'shiftleft/shiftleftintro.md'
+    - 'Initial Platform Setup': 'shiftleft/shiftleftplatform.md'
+    - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
   - Shift Right:
     - shiftright/index.md
   - Useful Resources:

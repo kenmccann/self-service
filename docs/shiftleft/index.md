@@ -1,3 +1,1 @@
-# Shift Left 
-
-# ![](images/shift-left.png) 
+## Insert Some text here :-)
