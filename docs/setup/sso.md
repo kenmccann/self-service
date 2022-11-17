@@ -5,7 +5,7 @@ Single Sign on (SSO) is available to Aqua customers and will allow an Aqua custo
 
 1. Coordinate with SSO team
 2. Open a ticket with Aqua Support asking to integrate SSO  
-3. Follow instructions for SSO integration here
+3. Follow instructions for SSO integration [here](https://support.aquasec.com/support/solutions/articles/16000111637-saml-setup-instructions)
 4. Provide the necessary SAML Provider information to support team
 5. Test and verify SSO Auth is correct
 6. Optional -> Request JIT enable

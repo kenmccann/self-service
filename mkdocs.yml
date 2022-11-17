@@ -57,10 +57,13 @@ nav:
     - before/index.md
   - The Guided Path:
     - path/index.md
+  - Platform Setup:
+    - 'Initial Platform Setup': setup/index.md
   - Shift Left:
-    - shiftleft/index.md
-    - 'Introduction to Aqua Shift Left': 'shiftleft/shiftleftintro.md'
-    - 'Initial Platform Setup': 'shiftleft/shiftleftplatform.md'
+    #- shiftleft/index.md
+    #- 'Introduction to Aqua Shift Left': 'shiftleft/shiftleftintro.md'
+    - 'Introduction to Aqua Shift Left': shiftleft/Shift Left.md
+    #- 'Initial Platform Setup': 'shiftleft/shiftleftplatform.md'
     - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
   - Shift Right:
     - shiftright/index.md
