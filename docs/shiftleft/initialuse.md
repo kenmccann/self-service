@@ -12,7 +12,7 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 <!-- Deploy Scanners--->
 
 {%
-   include-markdown "deployscanners.md"
+   include-markdown "scanners.md"
 
 %}
 

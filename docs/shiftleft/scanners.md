@@ -36,19 +36,4 @@ The local resources supported are registries for container images and serverless
 
 The Aqua Cloud Connector is deployed as a simple Kubernetes deployment, and its configuration can be controlled by a ConfigMap.
 
-## Deploy Scanners and Cloud Connector for Private Registries
-1. Create Scanner token in CWPP -> Administration -> Scanners -> Connect Scanner
-2. Per sizing requirements in step 1, deploy local scanners into tooling environment with access to private registries
-3. Configure cloud connector per the documentation.
-4. Deploy cloud connector into tooling environment with access to private registries
-
-Be sure to review the following sizing guide recomendations for your scanner deployment:
-
-| **Component** | **Resource** | **Sizing** |
-|               |              |            |
-| Aqua Scanner Legacy (ea) | CPU | 1,000 - 2,000 |
-|  | Memory | 0.5 - 1.0 |
-|  | Storage | At least twice the size of largest image |
-| Aqua Trivy Premium | CPU | 1,500 - 4,000 |
-|  | Memory | 0.5 - 3.0 |
-|  | Storage | At least twice the size of largest image |
+## [Scanner and Cloud Connector Deployment](../shiftleft/deploy.md)
