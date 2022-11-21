@@ -122,6 +122,16 @@ Be sure to review the following sizing guide recomendations for your scanner dep
 Like the Cloud Connector, the first step to deploying the Scanner is to create your Scanner and Authentication Token
 
 1. Navigate to Workload Protection and go to Administration -> Scanners
-![](../shiftleft/images/cwpscan.png){width=150 height=300}
 2. Click Connect Scanner
-![](../shiftleft/images/scanner.png) |
+
+<table><tr>
+<td> <img src="../images/cwpscan.png" style="width: 125px; height: 300px;"/> </td>
+<td> <img src="../images/scanner.png" style="width: 350px; height: 75px;""/> </td>
+</tr></table>
+
+3. Give your scanner a name and description then click --> Save And Get Deployment Command
+![](../shiftleft/images/namescanner.png)
+4. Copy the authentication token and paste it into a clipboard for later
+![](../shiftleft/images/scannertoken.png)
+5. Copy the Host URL and paste it into the clipboard for later
+![](../shiftleft/images/scannerurl.png)
