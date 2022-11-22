@@ -34,6 +34,10 @@ The local resources supported are registries for container images and serverless
 
 ### Cloud Connector Deployment and Configuration
 
-The Aqua Cloud Connector is deployed as a simple Kubernetes deployment, and its configuration can be controlled by a ConfigMap.
+The Aqua Cloud Connector and Scanners are deployed as simple Kubernetes deployments. 
+<br>
+<br>
 
-## [Scanner and Cloud Connector Deployment](../shiftleft/deploy.md)
+*** Click the link below for the detailed deployment steps: ***
+
+## [* Scanner and Cloud Connector Deployment](../shiftleft/deploy.md)

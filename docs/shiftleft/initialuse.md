@@ -16,6 +16,14 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 
 %}
 
+<!-- Registry Configuration--->
+
+{%
+   include-markdown "registrysetup.md"
+
+%}
+
+
 <!-- Image Assurance Policies--->
 
 {%
