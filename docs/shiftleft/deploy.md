@@ -217,3 +217,6 @@ If you are installing from the Helm repository:
 ```
 You can verify that the scanners are connected to the console by checking the UI of the console or checking the pod logs:
 
+![](../shiftleft/images/klogsscanner.png)
+
+# [Connect the Private Registry](../shiftleft/registrysetup.md) 
