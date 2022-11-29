@@ -2,41 +2,41 @@ Once the Cloud Connector and Scanners are deployed, you can begin connecting to 
 
 ## Integrating your Private Registry
 
-Navigate to Workload Protection and go to "Administration" on the left navigation bar
+1. Navigate to Workload Protection and go to "Administration" on the left navigation bar
+![](../shiftleft/images/integrations1.png)
 <br>
 
-Click "Integrations"
-<br>
+2. Click "Integrations"
 
-Click "Image Registries"
-<br>
+![](../shiftleft/images/integrations.png)
 
-Click "Add Registry"
-<br>
+3. Click "Image Registries"
+![](../shiftleft/images/registries.png)
 
-Create a name for the registry to be added
-<br>
+4. Click "Add Registry"
+![](../shiftleft/images/addreg.png)
 
-Select the "Registry Type" here we are adding a "Sonatype Nexus Repository OSS" registry
-<br>
+5. Create a name for the registry to be added
+![](../shiftleft/images/regname.png)
 
-In the "Connect through section:
-<br>
+6. Select the "Registry Type" here we are adding a "Sonatype Nexus Repository OSS" registry
+![](../shiftleft/images/regtype.png)
 
-Click the radio button next to "Specific Scanner"
-<br>
+7. In the "Connect through section, click the radio button next to "Specific Scanner"
+![](../shiftleft/images/scanradio.png)
 
-Select your scanner in the drop down list
-<br>
+8. Select your scanner in the drop down list
+![](../shiftleft/images/specificscan.png)
 
-Add the registry URL
-<br>
+9. Add the registry URL
+![](../shiftleft/images/regurl.png)
 
-Add the proper credentials in the Username and Password fields
-<br>
+10. Add the proper credentials in the Username and Password fields
+![](../shiftleft/images/regpw.png)
 
-Test your connection by clicking the "Test Connection" button
-<br>
+11. Test your connection by clicking the "Test Connection" button
+![](../shiftleft/images/testcon.png)
 
-Once the registry has successfully connected, click "Save" in the top left of the page
+12. Once the registry has successfully connected, click "Save" in the top left of the page
+![](../shiftleft/images/savereg.png)
 
