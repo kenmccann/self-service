@@ -1,6 +1,7 @@
-Once the Cloud Connector and Scanners are deployed, you can begin connecting to your private registries
+# Registry Setup
+Once the Cloud Connector and Scanners are deployed, private registries can now be connected
 
-## Integrating your Private Registry
+## Integrate a Private Registry
 
 1. Navigate to Workload Protection and go to "Administration" on the left navigation bar
 ![](../shiftleft/images/integrations1.png)
@@ -40,3 +41,35 @@ Once the Cloud Connector and Scanners are deployed, you can begin connecting to 
 12. Once the registry has successfully connected, click "Save" in the top left of the page
 ![](../shiftleft/images/savereg.png)
 
+## Configure Registry
+
+Once the registry is connected, it will need to be configured for automated scanning. 
+
+1. Click "Registry Configuration"
+<br>
+![](../shiftleft/images/configbutton.png)
+
+2. Set "Scan Timeout" if necessary - Scan timeout determines how long the scan will take to timeout and re-queue
+3. Add any image prefix necessary for the registry
+![](../shiftleft/images/general.png)
+
+4. Click "Automatic"
+5. Set the schedule day and time - remember that the server is on UTC so make adjustments accordingly
+6. Check "Rescan Existing Images" (recomended)
+![](../shiftleft/images/pullandscan.png)
+
+7. Under "Advanced Settings" additional criteria for scans can be set such as; name/tag, image creation time, and latest verions
+![](../shiftleft/images/advanced.png)
+
+8. Under "Exceptions" criteria for always pulling images or never pulling images accorging to name/tag pattern can be set
+![](../shiftleft/images/exceptions.png)
+
+9. It is recomended to turn on the Auto clean up under the "Cleanup Settings" This will remove images and repositories that are no longer present in the Aqua Console
+![](../shiftleft/images/cleanup.png)
+
+10. Don't forget to click "Save" when done
+![](../shiftleft/images/savereg.png)
+
+Once the registry has been connected and configured, Image Assurance Policies should be configured next. Click the link below to move to the next step:
+
+## [Image Assurance Policy Setup](../shiftleft/imageassurancepolicies.md)
