@@ -1,1 +1,1 @@
-## Insert Some text here :-)
+## Insert Some text here
