@@ -98,6 +98,8 @@ For now, enable the following controls:
 * Superuser
 * Vulnerability Severity - Check Enable Vulnerability Severity Control and set to High
 
+Click "Save"
+
 It will look like this when done:
 ![](../shiftleft/images/iapolicy.png)
 

@@ -37,6 +37,7 @@ Once the Cloud Connector and Scanners are deployed, private registries can now b
 
 11. Test your connection by clicking the "Test Connection" button
 ![](../shiftleft/images/testcon.png)
+![](../shiftleft/images/testregresults.png)
 
 12. Once the registry has successfully connected, click "Save" in the top left of the page
 ![](../shiftleft/images/savereg.png)

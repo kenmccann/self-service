@@ -16,12 +16,7 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 
 %}
 
-<!-- Image Assurance Policies--->
-
-{%
-   include-markdown "imageassurancepolicies.md"
-
-%}
+# [Connect the Private Registry](../shiftleft/registrysetup.md) 
 
 <!--Configure CI for scanners--->
 
