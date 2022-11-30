@@ -1,6 +1,6 @@
-# Pipeline for publishing content to ps.aquasec.com automatically as the source is updated on GitHub
-# GitHub:     https://github.com/aqua-ps/aqua-ps
-# Site:       https://ps.aquasec.com
+# Pipeline for publishing content to digitalsuccess.aquasec.com automatically as the source is updated on GitHub
+# GitHub:     https://github.com/aqua-ps/selfserve-content
+# Site:       https://digitalsuccess.aquasec.com
 # Maintainer: ken@aquasec.com 
 # Department: Aqua Professional Services (services@aquasec.com)
 
@@ -41,7 +41,7 @@ steps:
     regionName: 'us-east-1'
     awsCommand: 's3'
     awsSubCommand: 'sync'
-    awsArguments: 'site/ s3://aqua-ps-docs/'
+    awsArguments: 'site/ s3://digitalsuccess-site/'
 
 # Perform CloudFront invalidation which clears the edge cache (AWS has a limit on these)
 - task: AWSCLI@1
@@ -51,4 +51,4 @@ steps:
     regionName: 'us-east-1'
     awsCommand: 'cloudfront'
     awsSubCommand: 'create-invalidation'
-    awsArguments: '--distribution-id E3W4HTIA6HB6QN --paths "/*"'
+    awsArguments: '--distribution-id EDIT-THIS --paths "/*"'
