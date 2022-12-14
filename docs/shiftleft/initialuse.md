@@ -5,14 +5,14 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 <!-- Integrate Registries--->
 
 {%
-   include-markdown "integrateregistries.md"
+   include-markdown ".incl/integrateregistries.md"
 
 %}
 
 <!-- Deploy Scanners--->
 
 {%
-   include-markdown "scanners.md"
+   include-markdown ".incl/scanners.md"
 
 %}
 
@@ -21,6 +21,6 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 <!--Configure CI for scanners--->
 
 {%
-   include-markdown "scannerci.md"
+   include-markdown ".incl/scannerci.md"
 
 %}
