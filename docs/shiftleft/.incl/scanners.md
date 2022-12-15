@@ -30,7 +30,7 @@ The local resources supported are registries for container images and serverless
 
 ### Architectural diagram
 
-![](images/ccArch.jpg)
+![](/shiftleft/images/ccArch.jpg)
 
 ### Cloud Connector Deployment and Configuration
 
