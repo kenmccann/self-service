@@ -1,6 +1,6 @@
 # Introduction to self serve onboarding
 
-Welcome to the Aqua Onboarding Portal! This site is here to guide Aqua Customers on their journey to Cloud Native security with the Aqua Security platform. In this site you will find everything that you need to successfully complete the deployment and use of Aqua products. We have built and provided a number of guides, videos, interactive labs and helpful hints and tips along with a guided path to lead the way. 
+Welcome to the Aqua Onboarding Portal! This site is here to guide Aqua Customers on their journey to Cloud Native security with the Aqua Security platform. In this site you will find everything that you need to successfully complete the deployment and use of Aqua products. We have built and provided a number of guides, videos, interactive labs, and helpful hints and tips along with a guided path to lead the way. 
 
 ## How to use this site
 
