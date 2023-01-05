@@ -1,3 +1,17 @@
 # Before you Start
 
-This section of the Onboarding Portal is to guide customers who may need help with the key concepts that the Aqua Platform depends on and uses to secure Cloud Native applications. Please review this information and use the resources provided to further your understanding of DevSecOps and how Aqua works within pipelines or your cloud infrastruture to protect your assets and your teams from attacks. 
+Welcome to the Aqua family! In this section we would like to help you get familiar with some of the useful tools within Aqua. We will be walking you through your initial login into your Aqua User Interface along with where to go to get licensing information, how to add users to your portal, and introduce you to some brief videos on how to use the product. 
+
+Aqua User Interface
+1.	Welcome Email (update the Welcome Template) - 
+2.	Signing into your new platform
+3.	Adding users
+4.	Permissions
+5.	Check Licensing
+
+Customer Success Portal
+1.	Tech Owner signs in
+2.	How to add Users
+3.	Permissions meanings
+4.	Documentation
+5.	Licensing
