@@ -54,7 +54,8 @@ nav:
   - Introduction:
     - intro/index.md
   - Before you start:
-    - before/index.md
+    - Introduction: before/index.md
+    - The Aqua User Interface: before/userinterface.md
   - The Guided Path:
     - path/index.md
   - Platform Setup:
