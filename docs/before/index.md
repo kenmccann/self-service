@@ -24,9 +24,9 @@ Signing into your User interface will be the first access point to your new envi
 
 ### Signing into your new Platform
 
-The first task we would like you to do is make sure you have access to your new environment. The Technical Owner should have received a 'Welclome email', with some important information and the ability to sign in. 
+The first task we would like you to do is make sure you have access to your new environment. The Technical Owner should have received a 'Welcome email', with some important information and the ability to sign in. 
 
-As the technical owner, you will have to navigate to cloud.aquasec.com and reset your password using the email that was used. Once reset, you will have the ability to login and add additional users to your environment. 
+As the technical owner, you will have to navigate to [cloud.aquasec.com](cloud.aquasec.com) and reset your password using the email that was used. Once reset, you will have the ability to login and add additional users to your environment. 
 
 ### Adding Additional Users
 
