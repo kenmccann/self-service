@@ -6,9 +6,6 @@ In this section, we will be discussing the first few steps you need to take in o
 3.	Adding Additional users
 4.	View licensing in your User Interface
 
-### **Welcome Email**
-
-Signing into your User interface will be the first access point to your new environment. The technical owner should have received a 'Welcome email', that will include some important information that you will need to keep handy for your Aqua Deplopyment. This will include IP addresses, Gateway URL, and your Cloud Account number. Your Welcome email will look similar to this image below. If you did not receive your welcome email, please let your Account Executive know as you will need that information later on in the deployment. 
 
 ### **Signing into your new Platform**
 
