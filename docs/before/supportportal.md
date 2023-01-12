@@ -1,8 +1,9 @@
 ## Support Portal
 
 1. Adding a new user
-2. 
-3.
+2.
+3. 
+
 
 
 ### Adding a new User

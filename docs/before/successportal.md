@@ -1,4 +1,4 @@
-## Customer Success Portal
+
 
 The [Customer Success Portal](https://success.aquasec.com) is where you can go to find useful information such as your user management, licenses, documentation, our support portal, and Aquademy.
 
@@ -28,7 +28,7 @@ Our Support team has written some Knowledge Base articles regarding how to manag
 
 #### Add, Update, and Block users 
 
-https://support.aquasec.com/support/solutions/articles/16000104357-user-management-in-the-aqua-success-portal 
+This section will describe the steps on how to add, update and block users from the Aqua Success Portal. Please follow [**this link**](https://support.aquasec.com/support/solutions/articles/16000104357-user-management-in-the-aqua-success-portal) for all the details.
 
  
 #### Creating new Technical Owners 
@@ -37,7 +37,7 @@ You may notice that you don’t have the option to create other Technical Owners
 
 That said, we understand that more than one Technical Owner per account may be needed.  In order to ensure the provisioning of new Technical Owners is properly documented, please open a support ticket with the request and our team will be glad to assist you. 
 
- #### Add a user with a different domain
+#### Add a user with a different domain
 
 By default, you are only able to add new users with the same domain suffix as the original Technical Owner.  This is by design as a security precaution. 
 
