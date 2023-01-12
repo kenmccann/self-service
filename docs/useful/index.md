@@ -1,4 +1,4 @@
-# Useful resources for your Aqua jpurney
+# Useful resources for your Aqua journey
 
 The following resources are available to every Aqua customer with a valid subscription to the Aqua Platform:
 
