@@ -45,12 +45,11 @@ If you need to add a user with a different domain suffix, please open a support 
 
 ### License management in the Success Portal
 
-License management in the Success Portal 
-
 As the Technical Owner, you (and any other users with the “license” permission) can view your purchased Aqua license keys via the Success portal.  Simply navigate to https://success.aquasec.com/#/licenses (you can also access this page when logged into the Success portal by clicking on the User icon in the upper right and selecting “Licenses” from the drop-down menu).   
 
 For instructions on how to apply your new license key(s), please refer to https://docs.aquasec.com/docs/settings-licenses#section-add-an-aqua-security-software-license 
 
-
-
 ### Getting Help
+If you have questions or need assistance with user creation and management, license management, or anything else, please open a support ticket and we are happy to help. 
+
+
