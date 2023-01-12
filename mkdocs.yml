@@ -64,6 +64,8 @@ nav:
     - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
   - Shift Right:
     - shiftright/index.md
+    = Runtime:
+      - 'Container Runtime': shiftright/cwpp.md  - Useful Resources:
   - Useful Resources:
     - useful/index.md
 
