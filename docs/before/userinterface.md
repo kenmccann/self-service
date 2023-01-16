@@ -3,9 +3,9 @@
 In this section, we will be discussing the first few steps you need to take in order to gain access and login to your Aqua User Interface or otherwise called your UI. Your Aqua UI is where you be able to view your scan results, create policies and integrate with other tools you may have. We will go into all those in details but right now we will cover these topics below.
 
 1. Welcome Email (Needs updating)
-2. Signing into your new platform
-3. Adding Additional users
-4. View licensing in your User Interface
+1. Signing into your new platform
+1. Adding Additional users
+1. View licensing in your User Interface
 
 ## Signing into your new Platform
 
@@ -18,8 +18,8 @@ As the technical owner, you will have to navigate to [cloud.aquasec.com](cloud.a
 Once signed in, you may then add new users by following these steps below:
 
  1. Navigate to the Mega Menu found on the top Left left (9 little squares)
- 2. Scroll down to 'Account Management'
- 3. Click on 'Add New' (Top Right).
+ 1. Scroll down to 'Account Management'
+ 1. Click on 'Add New' (Top Right).
 
 Once you click on Add New, you will be able to add each user you would like to have access by entering in their email and decide whether or not they will be an Administrator (this can always be changed later on).
 
