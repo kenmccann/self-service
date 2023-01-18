@@ -54,14 +54,16 @@ nav:
   - Introduction:
     - intro/index.md
   - Getting Started:
-    - 'Before you startt': before/index.md
+    - Before you start: before/index.md
     - setup/index.md
-    - Shift Left:
-      - 'Introduction to Aqua Shift Left': shiftleft/index.md
-      - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'  
-    - Shift Right:
-      - shiftright/index.md
-      - Runtime: shiftright/cwpp.md
+    - The Aqua User Interface: before/userinterface.md
+    - Customer Success Portal: before/successportal.md
+    - Support Portal: before/supportportal.md
+      - Shift Left:
+        - 'Introduction to Aqua Shift Left': shiftleft/index.md
+        - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
+      - Shift Right:
+        - shiftright/index.md
   - Resources:
     - useful/index.md
 
