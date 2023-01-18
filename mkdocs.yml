@@ -50,22 +50,19 @@ extra:
 
 # Navigation
 nav:
-  - Overview: index.md
+  - Home: index.md
   - Introduction:
     - intro/index.md
-  - Before you start:
-    - before/index.md
-  - The Guided Path:
-    - path/index.md
-  - Platform Setup:
-    - 'Initial Platform Setup': setup/index.md
-  - Shift Left:
-    - 'Introduction to Aqua Shift Left': shiftleft/index.md
-    - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
-  - Shift Right:
-    - shiftright/index.md
-    - Runtime: shiftright/cwpp.md
-  - Useful Resources:
+  - Getting Started:
+    - 'Before you startt': before/index.md
+    - setup/index.md
+    - Shift Left:
+      - 'Introduction to Aqua Shift Left': shiftleft/index.md
+      - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'  
+    - Shift Right:
+      - shiftright/index.md
+      - Runtime: shiftright/cwpp.md
+  - Resources:
     - useful/index.md
 
 # Extensions
