@@ -7,15 +7,14 @@ Welcome to the Aqua Onboarding Portal! This site is here to guide Aqua Customers
 This site consists of a number of sections which are listed below.
 
 1. This introduction section
-2. Before you start - general guidance
-3. Aqua resources for your journey
-3. The Guided Path illustration
-4. Shift Left onboarding
-5. Shift Right onboarding
+1. Before you start - general guidance
+1. Aqua resources for your journey
+1. Shift Left onboarding
+1. Shift Right onboarding
 
-## Before you start 
+## Before you start
 
-Aqua Security is designed to prevent and protect against Cloud Native security attacks and vulnerabilities. To get the maximum benefit from your Aqua platform it will be necessary to understand a number of key concepts related to software development, security practices, operations and modern cloud infrastructure. The Aqua platform will touch many different teams and we would recommend ensuring appropriate knowledge is present in your organization before deploying Aqua. This section will illustrate the various teams and knowledge which are recommended for maximum success. 
+Aqua Security is designed to prevent and protect against Cloud Native security attacks and vulnerabilities. To get the maximum benefit from your Aqua platform it will be necessary to understand a number of key concepts related to software development, security practices, operations and modern cloud infrastructure. The Aqua platform will touch many different teams and we would recommend ensuring appropriate knowledge is present in your organization before deploying Aqua. This section will illustrate the various teams and knowledge which are recommended for maximum success.
 
 ## Aqua Resources for your journey
 
