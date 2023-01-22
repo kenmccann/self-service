@@ -16,7 +16,9 @@ Now that you have successfully configured the base Aqua Platform and the Aqua co
 
 %}
 
-# [Connect the Private Registry](../shiftleft/registrysetup.md) 
+## Connect the Private Registry
+
+Follow [this guide](registrysetup.md) to get Aqua connected to your private registries.
 
 <!--Configure CI for scanners--->
 

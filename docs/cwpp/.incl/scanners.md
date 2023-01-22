@@ -40,4 +40,4 @@ The Aqua Cloud Connector and Scanners are deployed as simple Kubernetes deployme
 
 *** Click the link below for the detailed deployment steps: ***
 
-# [Scanner and Cloud Connector Deployment](../shiftleft/deploy.md)
+# [Scanner and Cloud Connector Deployment](../deploy.md)

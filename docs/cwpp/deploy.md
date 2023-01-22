@@ -5,15 +5,15 @@
 The first step in deploying the Cloud Connector is to generate your authentication token:
 
 1. Log into https://cloud.aquasec.com 
-![](../shiftleft/images/cloudAquasec.png)
+![](images/cloudAquasec.png)
 2. Navigate to Workload Protection and go to Settings
-![](../shiftleft/images/cwpp.png)
+![](images/cwpp.png)
 3. Under Settings, navigate to Cloud Connector
-![](../shiftleft/images/cc.png)
+![](images/cc.png)
 4. Click "Generate" next to the Authentication Token box 
-![](../shiftleft/images/ccTokenGen.png)
+![](images/ccTokenGen.png)
 5. Copy the token and paste into a notepad
-![](../shiftleft/images/tokenGens.png)
+![](images/tokenGens.png)
 
 ## Deploy Cloud Connector with Helm
 
@@ -134,11 +134,11 @@ Like the Cloud Connector, the first step to deploying the Scanner is to create y
 </tr></table>
 
 3. Give your scanner a name and description then click --> Save And Get Deployment Command
-![](../shiftleft/images/namescanner.png)
+![](images/namescanner.png)
 4. Copy the authentication token and paste it into a clipboard for later
-![](../shiftleft/images/scannertoken.png)
+![](images/scannertoken.png)
 5. Copy the Host URL and paste it into the clipboard for later
-![](../shiftleft/images/scannerurl.png)
+![](images/scannerurl.png)
 
 ## Deploy the Aqua Scanner with Helm
 
@@ -217,6 +217,6 @@ If you are installing from the Helm repository:
 ```
 You can verify that the scanners are connected to the console by checking the UI of the console or checking the pod logs:
 
-![](../shiftleft/images/klogsscanner.png)
+![](images/klogsscanner.png)
 
-# [Connect the Private Registry](../shiftleft/registrysetup.md) 
+# [Connect the Private Registry](registrysetup.md) 

@@ -101,7 +101,7 @@ For now, enable the following controls:
 Click "Save"
 
 It will look like this when done:
-![](../shiftleft/images/iapolicy.png)
+![](images/iapolicy.png)
 
 
 

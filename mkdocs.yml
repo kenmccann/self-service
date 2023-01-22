@@ -25,6 +25,8 @@ theme:
   favicon: resources/aqua-favicon-wht.png
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      example: fontawesome/solid/flask
   custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -61,9 +63,14 @@ nav:
     - setup/index.md
   - Aqua Journey:
     - Shift Left Path:
-      - 'Introduction to Aqua Shift Left': shiftleft/index.md
-      - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
-    - Shift Right Path:
+      - Introduction to Aqua Shift Left: cwpp/index.md
+      - SaaS Platform setup: 
+        - First login: platform/login.md
+        - Configure users & SSO: platform/users.md
+      - 'CWPP: Getting Started': 'cwpp/initialuse.md'
+      - 'Supply Chain: Getting Started': scs/setup.md
+      - 'CSPM: Getting Started': cspm/setup.md
+    - Shift Left + Right Path:
       - shiftright/index.md
       - Runtime: shiftright/cwpp.md
   - Resources:

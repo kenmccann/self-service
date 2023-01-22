@@ -1,0 +1,90 @@
+# Registry Setup
+
+!!! example "Work in Progress"
+    This document is unfinished and currently receiving contributions from Aqua experts. Any information found on this page should be sanity-checked before proceeding with any advice.
+
+Once the Cloud Connector and Scanners are deployed, private registries can now be connected
+
+## Integrate a Private Registry
+
+1. Navigate to Workload Protection and go to "Administration" on the left navigation bar
+
+  ![](images/integrations1.png)
+
+1. Click "Integrations"
+
+  ![](images/integrations.png)
+
+1. Click "Image Registries"
+
+  ![](images/registries.png)
+
+1. Click "Add Registry"
+
+  ![](images/addreg.png)
+
+1. Create a name for the registry to be added
+
+  ![](images/regname.png)
+
+1. Select the "Registry Type" here we are adding a "Sonatype Nexus Repository OSS" registry
+
+  ![](images/regtype.png)
+
+1. In the "Connect through section, click the radio button next to "Specific Scanner"
+
+  ![](images/scanradio.png)
+
+1. Select your scanner in the drop down list
+
+  ![](images/specificscan.png)
+
+1. Add the registry URL
+
+  ![](images/regurl.png)
+
+1. Add the proper credentials in the Username and Password fields
+
+  ![](images/regpw.png)
+
+1. Test your connection by clicking the "Test Connection" button
+
+  ![](images/testcon.png)
+  ![](images/testregresults.png)
+
+1. Once the registry has successfully connected, click "Save" in the top left of the page
+
+  ![](images/savereg.png)
+
+## Configure Registry
+
+Once the registry is connected, it will need to be configured for automated scanning. 
+
+1. Click "Registry Configuration"
+<br>
+![](images/configbutton.png)
+
+2. Set "Scan Timeout" if necessary - Scan timeout determines how long the scan will take to timeout and re-queue
+3. Add any image prefix necessary for the registry
+![](images/general.png)
+
+4. Click "Automatic"
+5. Set the schedule day and time - remember that the server is on UTC so make adjustments accordingly
+6. Check "Rescan Existing Images" (recomended)
+![](images/pullandscan.png)
+
+7. Under "Advanced Settings" additional criteria for scans can be set such as; name/tag, image creation time, and latest verions
+![](images/advanced.png)
+
+8. Under "Exceptions" criteria for always pulling images or never pulling images accorging to name/tag pattern can be set
+![](images/exceptions.png)
+
+9. It is recomended to turn on the Auto clean up under the "Cleanup Settings" This will remove images and repositories that are no longer present in the Aqua Console
+![](images/cleanup.png)
+
+10. Don't forget to click "Save" when done
+![](images/savereg.png)
+
+Once the registry has been connected and configured, Image Assurance Policies should be configured next. Click the link below to move to the next step:
+
+## [Image Assurance Policy Setup](imageassurancepolicies.md)
