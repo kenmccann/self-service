@@ -70,6 +70,7 @@ nav:
       - 'CWPP: Getting Started': 'cwpp/initialuse.md'
       - 'Supply Chain: Getting Started': scs/setup.md
       - 'CSPM: Getting Started': cspm/setup.md
+      - 'CWPP: Creating Image Assurance Policies': cwpp/imageassurancepolicies.md
     - Shift Left + Right Path:
       - shiftright/index.md
       - Runtime: shiftright/cwpp.md
