@@ -81,9 +81,15 @@ nav:
           - 'Integrate Registries': cwpp/integrate-registries.md
           - 'Integrate with CI/CD': cwpp/integrate-cicd.md
         - Phase 2:
+          - Review Default Policies: cwpp/review-default-policies.md
           - Creating Image Assurance Policies: cwpp/image-assurance-policies.md
           - RBAC: cwpp/rbac.md
           - Configuring Response Policies: cwpp/configure-response-policies.md
+          - Integrate with SIEM: cwpp/integrate-seim.md
+          - Deploy Enforcers: cwpp/deploy-enforcers.md
+        - Phase 3:
+          - 'Enforcer: Set Enforce Mode': cwpp/configure-enforce-mode.md
+          - Block Unregistered Images: cwpp/block-unregistered.md
       - 'CSPM': 
         - Phase 1:
           - Getting Started: cspm/getting-started.md
