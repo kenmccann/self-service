@@ -109,6 +109,15 @@ nav:
       - 'CSPM': 
         - Phase 1:
           - Getting Started: cspm/getting-started.md
+          - Integrate Cloud Accounts: cspm/integrate-cloud-accounts.md
+          - Onboard Users: cspm/onboard-users.md
+          - Integrate Real-time Alerts: cspm/real-time-alerts.md
+        - Phase 2:
+          - Investigate Findings: cspm/investigate-findings.md
+          - Automate Integration: cspm/automate-integration.md
+          - Implement Suppressions: cspm/implement-suppressions.md
+          - Review Plugins: cspm/review-plugins.md
+          - Implement Response Policies: cspm/implement-response-policies.md
     - Shift Left + Right Path:
       - shiftright/index.md
       - Runtime: shiftright/cwpp.md
