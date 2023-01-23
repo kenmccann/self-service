@@ -25,6 +25,8 @@ theme:
   favicon: resources/aqua-favicon-wht.png
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      example: fontawesome/solid/flask
   custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -61,9 +63,101 @@ nav:
     - setup/index.md
   - Aqua Journey:
     - Shift Left Path:
-      - 'Introduction to Aqua Shift Left': shiftleft/index.md
-      - 'Your first steps in Aqua Shift Left': 'shiftleft/initialuse.md'   
-    - Shift Right Path:
+      - Introduction to Aqua Shift Left: cwpp/index.md
+      - SaaS Platform setup: 
+        - First login: platform/login.md
+        - Configure users & SSO: platform/users.md
+      - 'SCS': 
+        - Phase 1:
+          - Getting Started: scs/getting-started.md
+          - Integrate with SCM: scs/integrate-scm.md
+          - First Repository Scan: scs/first-repo-scan.md
+          - Baseline Build Assurance: scs/baseline-build-assurance.md
+          - Integrate CI/CD Scanning: scs/integrate-cicd-code-scanning.md
+          - Developer Onboarding: scs/developer-onboarding.md
+        - Phase 2:
+          - Implement SBOM: scs/implement-sbom.md
+          - Investigate Findings: scs/investigate-findings.md
+        - Phase 3:
+          - Create Custom Build Assurance Policies: scs/create-custom-build-assurance-policies.md
+      - 'CWPP':
+        - Phase 1:
+          - Getting Started: cwpp/getting-started.md
+          - 'Deploy the Cloud Connector': cwpp/deploy-cloudconnector.md
+          - 'Deploy Scanners': cwpp/deploy-scanners.md
+          - 'Integrate Registries': cwpp/integrate-registries.md
+          - 'Integrate with CI/CD': cwpp/integrate-cicd.md
+        - Phase 2:
+          - Review Default Policies: cwpp/review-default-policies.md
+          - Creating Custom Assurance Policies: cwpp/image-assurance-policies.md
+          - RBAC: cwpp/rbac.md
+          - Configuring Response Policies: cwpp/configure-response-policies.md
+          - Integrate with SIEM: cwpp/integrate-seim.md
+        - Phase 3:
+          - CIS Benchmarking: cwpp/review-cis-benchmarking.md
+          - Response Policy Refinement: cwpp/refine-response-policies.md
+          - Reporting: cwpp/reporting.md
+    - Shift Left + Right Path:
+      - shiftright/index.md
+      - Runtime: shiftright/cwpp.md
+      - SaaS Platform setup: 
+        - First login: platform/login.md
+        - Configure users & SSO: platform/users.md
+      - 'SCS': 
+        - Phase 1:
+          - Getting Started: scs/getting-started.md
+          - Integrate with SCM: scs/integrate-scm.md
+          - First Repository Scan: scs/first-repo-scan.md
+          - Baseline Build Assurance: scs/baseline-build-assurance.md
+          - Integrate CI/CD Scanning: scs/integrate-cicd-code-scanning.md
+          - Developer Onboarding: scs/developer-onboarding.md
+        - Phase 2:
+          - Implement SBOM: scs/implement-sbom.md
+          - Investigate Findings: scs/investigate-findings.md
+        - Phase 3:
+          - Create Custom Build Assurance Policies: scs/create-custom-build-assurance-policies.md
+      - 'CWPP':
+        - Phase 1:
+          - Getting Started: cwpp/getting-started.md
+          - 'Deploy the Cloud Connector': cwpp/deploy-cloudconnector.md
+          - 'Deploy Scanners': cwpp/deploy-scanners.md
+          - 'Integrate Registries': cwpp/integrate-registries.md
+          - 'Integrate with CI/CD': cwpp/integrate-cicd.md
+        - Phase 2:
+          - Review Default Policies: cwpp/review-default-policies.md
+          - Creating Custom Assurance Policies: cwpp/image-assurance-policies.md
+          - Creating Custom Runtime Policies: cwpp/custom-runtime-policies.md
+          - RBAC: cwpp/rbac.md
+          - Configuring Response Policies: cwpp/configure-response-policies.md
+          - Integrate with SIEM: cwpp/integrate-seim.md
+          - Deploy Enforcers: cwpp/deploy-enforcers.md
+        - Phase 3:
+          - 'Enforcer: Set Enforce Mode': cwpp/configure-enforce-mode.md
+          - Block Unregistered Images: cwpp/block-unregistered.md
+          - CIS Benchmarking: cwpp/review-cis-benchmarking.md
+          - Block non-Kubernetes: cwpp/block-non-kube.md
+          - Response Policy Refinement: cwpp/refine-response-policies.md
+          - Implement vShield: cwpp/implement-vshield.md
+          - Reporting: cwpp/reporting.md
+        - Phase 4:
+          - Implement Services and Firewalls: cwpp/implement-services-firewalls.md
+          - Block Non-Compliant Images: cwpp/block-non-compliant-images.md
+          - Block Non-Compliant Kubernetes: cwpp/block-non-compliant-k8s.md
+      - 'CSPM': 
+        - Phase 1:
+          - Getting Started: cspm/getting-started.md
+          - Integrate Cloud Accounts: cspm/integrate-cloud-accounts.md
+          - Onboard Users: cspm/onboard-users.md
+          - Integrate Real-time Alerts: cspm/real-time-alerts.md
+        - Phase 2:
+          - Investigate Findings: cspm/investigate-findings.md
+          - Automate Integration: cspm/automate-integration.md
+          - Implement Suppressions: cspm/implement-suppressions.md
+          - Review Plugins: cspm/review-plugins.md
+          - Implement Response Policies: cspm/implement-response-policies.md
+        - Phase 3:
+          - Configure Auto-Remediation: cspm/configure-auto-remediation.md
+          - Reporting: cspm/reporting.md
       - shiftright/index.md
       - Runtime: shiftright/cwpp.md
   - Resources:

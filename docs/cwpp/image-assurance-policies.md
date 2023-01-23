@@ -1,5 +1,15 @@
 # Image Assurance Policies
 
+!!! example "Work in Progress"
+    This document is unfinished and currently receiving contributions from Aqua experts. Any information found on this page should be sanity-checked before proceeding with any advice.
+
+!!! warning "Work needed"
+
+    1. This document is a bit wordy: cut down
+    1. Videos explaining Image Assurance policies
+    1. Explanation of custom policies
+    1. Explanation of application scoping rules
+
 ## Image Assurance Overview
 
 Aqua Enterprise provides full lifecycle security for:
@@ -101,7 +111,7 @@ For now, enable the following controls:
 Click "Save"
 
 It will look like this when done:
-![](../shiftleft/images/iapolicy.png)
+![](images/iapolicy.png)
 
 
 
