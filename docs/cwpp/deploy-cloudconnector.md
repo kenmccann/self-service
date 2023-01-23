@@ -1,4 +1,4 @@
-## Aqua Cloud Connector
+# Deploy the Cloud Connector
 
 The Aqua Cloud Connector is used in conjunction with Aqua Platform SaaS Edition (Enterprise Plan) and ESE environments.
 
@@ -6,11 +6,11 @@ When deployed on local clusters, i.e., clusters on which Aqua Platform is not de
 
 The local resources supported are registries for container images and serverless functions; for simplicity, we will refer to all as images. Once you deploy the Connector on a local cluster, you are ready to go! You can create a new image registry integration and test its connectivity to ensure the deployment is successful. Once the integration is saved, the Aqua Platform console can access your registry and perform standard Aqua Enterprise operations, such as searching the registry for images and auto-pulling them. Image scanning is performed by Aqua Scanners deployed on your local clusters.
 
-### Architectural diagram
+## Architectural diagram
 
 ![](/cwpp/images/ccArch.jpg)
 
-### Cloud Connector Deployment and Configuration
+## Cloud Connector Deployment and Configuration
 
 The Aqua Cloud Connector is deployed as a simple Kubernetes deployment.
 
@@ -27,7 +27,7 @@ The first step in deploying the Cloud Connector is to generate your authenticati
 5. Copy the token and paste into a notepad
 ![](images/tokenGens.png)
 
-#### Deploy Cloud Connector with Helm
+### Deploy Cloud Connector with Helm
 
 Aqua Helm Charts are located in our Github repository [here](https://github.com/aquasecurty/aqua-helm) or you can add the helm repository as below:
 ```
