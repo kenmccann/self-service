@@ -11,9 +11,7 @@ Security issues are defined as vulnerabilities, sensitive data, and malware. The
 | **Scanned object**   | **Security Issues Scanned For**                             |
 |                      |                                                             |
 | **Container Images** | Vulnerabilities, sensitive data, and malware                |
-|                      |                                                             |
 | **VMWare Tanzu**     | Vulnerabilities, sensitive data, and malware                |
-|                      |                                                             |
 | **Functions**        | Vulnerabilities, sensitive data, and excessive permissions. |
 
 Object scanning is supported by the [Aqua CyberCenter](https://docs.aquasec.com/v2022.4/platform/aqua-cybercenter/cybercenter-description/), which maintains up-to-date information on vulnerabilities and malware. Once an object is scanned, the scanner reports the results to the Aqua Server, which makes them available through the Server UI and REST APIs.
@@ -30,7 +28,7 @@ The local resources supported are registries for container images and serverless
 
 ### Architectural diagram
 
-![](/shiftleft/images/ccArch.jpg)
+![](/cwpp/images/ccArch.jpg)
 
 ### Cloud Connector Deployment and Configuration
 
