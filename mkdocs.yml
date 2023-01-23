@@ -76,7 +76,10 @@ nav:
           - Integrate CI/CD Scanning: scs/integrate-cicd-code-scanning.md
           - Developer Onboarding: scs/developer-onboarding.md
         - Phase 2:
-          - None
+          - Implement SBOM: scs/implement-sbom.md
+          - Investigate Findings: scs/investigate-findings.md
+        - Phase 3:
+          - Create Custom Build Assurance Policies: scs/create-custom-build-assurance-policies.md
       - 'CWPP':
         - Phase 1:
           - Getting Started: cwpp/getting-started.md
