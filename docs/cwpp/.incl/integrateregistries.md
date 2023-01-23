@@ -8,4 +8,14 @@ This is perhaps the simplest of connections to make.  Simply follow the document
 
 ### Connecting to a Private registry
 
-In order to connect to a local Private registry, you will need to deploy a few resources to facilitate the connection.  You will need to deploy local scanners to handle image scanning and our Cloud Connector to inform the console of where the registry resides. Both will need to be deployed within a cluster with the ability to connect to the registries. We will start with a brief explanation of the two components.    
+!!! example "Work in Progress"
+    There is additional content content that goes into the necessary steps in detail.  We should decide if it gets added to this page, or do we simply rely on the published documentation?
+
+In order to connect to a local Private registry, you will need to deploy a few resources to facilitate the connection.  You will need to deploy local scanners to handle image scanning and our Cloud Connector to inform the console of where the registry resides. Both will need to be deployed within a cluster with the ability to connect to the registries. We will start with a brief explanation of the two components.
+
+??? note "Private Registry Configuration Steps"
+
+    {%
+      include-markdown "../registrysetup.md"
+
+    %}
