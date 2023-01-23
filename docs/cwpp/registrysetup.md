@@ -9,81 +9,90 @@ Once the Cloud Connector and Scanners are deployed, private registries can now b
 
 1. Navigate to Workload Protection and go to "Administration" on the left navigation bar
 
-  ![](/cwpp/images/integrations1.png)
+  ![image](/cwpp/images/integrations1.png)
 
 1. Click "Integrations"
 
-  ![](/cwpp/images/integrations.png)
+  ![image](/cwpp/images/integrations.png)
 
 1. Click "Image Registries"
 
-  ![](/cwpp/images/registries.png)
+  ![image](/cwpp/images/registries.png)
 
 1. Click "Add Registry"
 
-  ![](/cwpp/images/addreg.png)
+  ![image](/cwpp/images/addreg.png)
 
 1. Create a name for the registry to be added
 
-  ![](/cwpp/images/regname.png)
+  ![image](/cwpp/images/regname.png)
 
 1. Select the "Registry Type" here we are adding a "Sonatype Nexus Repository OSS" registry
 
-  ![](/cwpp/images/regtype.png)
+  ![image](/cwpp/images/regtype.png)
 
 1. In the "Connect through section, click the radio button next to "Specific Scanner"
 
-  ![](/cwpp/images/scanradio.png)
+  ![image](/cwpp/images/scanradio.png)
 
 1. Select your scanner in the drop down list
 
-  ![](/cwpp/images/specificscan.png)
+  ![image](/cwpp/images/specificscan.png)
 
 1. Add the registry URL
 
-  ![](/cwpp/images/regurl.png)
+  ![image](/cwpp/images/regurl.png)
 
 1. Add the proper credentials in the Username and Password fields
 
-  ![](/cwpp/images/regpw.png)
+  ![image](/cwpp/images/regpw.png)
 
 1. Test your connection by clicking the "Test Connection" button
 
-  ![](/cwpp/images/testcon.png)
-  ![](/cwpp/images/testregresults.png)
+  ![image](/cwpp/images/testcon.png)
+  ![image](/cwpp/images/testregresults.png)
 
 1. Once the registry has successfully connected, click "Save" in the top left of the page
 
-  ![](/cwpp/images/savereg.png)
+  ![image](/cwpp/images/savereg.png)
 
 ## Configure Registry
 
 Once the registry is connected, it will need to be configured for automated scanning. 
 
 1. Click "Registry Configuration"
-<br>
-![](/cwpp/images/configbutton.png)
 
-2. Set "Scan Timeout" if necessary - Scan timeout determines how long the scan will take to timeout and re-queue
-3. Add any image prefix necessary for the registry
-![](/cwpp/images/general.png)
+  ![image](/cwpp/images/configbutton.png)
 
-4. Click "Automatic"
-5. Set the schedule day and time - remember that the server is on UTC so make adjustments accordingly
-6. Check "Rescan Existing Images" (recomended)
-![](/cwpp/images/pullandscan.png)
+1. Set "Scan Timeout" if necessary - Scan timeout determines how long the scan will take to timeout and re-queue
 
-7. Under "Advanced Settings" additional criteria for scans can be set such as; name/tag, image creation time, and latest verions
-![](/cwpp/images/advanced.png)
+1. Add any image prefix necessary for the registry
 
-8. Under "Exceptions" criteria for always pulling images or never pulling images accorging to name/tag pattern can be set
-![](/cwpp/images/exceptions.png)
+  ![image](/cwpp/images/general.png)
 
-9. It is recomended to turn on the Auto clean up under the "Cleanup Settings" This will remove images and repositories that are no longer present in the Aqua Console
-![](/cwpp/images/cleanup.png)
+1. Click "Automatic"
 
-10. Don't forget to click "Save" when done
-![](/cwpp/images/savereg.png)
+1. Set the schedule day and time - remember that the server is on UTC so make adjustments accordingly
+
+1. Check "Rescan Existing Images" (recomended)
+
+  ![image](/cwpp/images/pullandscan.png)
+
+1. Under "Advanced Settings" additional criteria for scans can be set such as; name/tag, image creation time, and latest verions
+
+  [image](/cwpp/images/advanced.png)
+
+1. Under "Exceptions" criteria for always pulling images or never pulling images accorging to name/tag pattern can be set
+
+  ![image](/cwpp/images/exceptions.png)
+
+1. It is recomended to turn on the Auto clean up under the "Cleanup Settings" This will remove images and repositories that are no longer present in the Aqua Console
+
+  ![image](/cwpp/images/cleanup.png)
+
+1. Don't forget to click "Save" when done
+
+  ![image](/cwpp/images/savereg.png)
 
 Once the registry has been connected and configured, Image Assurance Policies should be configured next. Click the link below to move to the next step:
 
