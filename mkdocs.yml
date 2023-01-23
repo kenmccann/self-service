@@ -67,15 +67,26 @@ nav:
       - SaaS Platform setup: 
         - First login: platform/login.md
         - Configure users & SSO: platform/users.md
-      - 'CWPP: Getting Started':
-        - Getting Started: cwpp/getting-started.md
-        - 'Deploy the Cloud Connector': cwpp/deploy-cloudconnector.md
-        - 'Deploy Scanners': cwpp/deploy-scanners.md
-        - 'Integrate Registries': cwpp/integrate-registries.md
-        - 'Integrate with CI/CD': cwpp/integrate-cicd.md
-      - 'Supply Chain: Getting Started': scs/setup.md
-      - 'CSPM: Getting Started': cspm/setup.md
-      - 'CWPP: Creating Image Assurance Policies': cwpp/imageassurancepolicies.md
+      - 'SCS': 
+        - Phase 1:
+          - Getting Started: scs/getting-started.md
+          - Integrate with SCM: scs/integrate-scm.md
+        - Phase 2:
+          - None
+      - 'CWPP':
+        - Phase 1:
+          - Getting Started: cwpp/getting-started.md
+          - 'Deploy the Cloud Connector': cwpp/deploy-cloudconnector.md
+          - 'Deploy Scanners': cwpp/deploy-scanners.md
+          - 'Integrate Registries': cwpp/integrate-registries.md
+          - 'Integrate with CI/CD': cwpp/integrate-cicd.md
+        - Phase 2:
+          - Creating Image Assurance Policies: cwpp/image-assurance-policies.md
+          - RBAC: cwpp/rbac.md
+          - Configuring Response Policies: cwpp/configure-response-policies.md
+      - 'CSPM': 
+        - Phase 1:
+          - Getting Started: cspm/getting-started.md
     - Shift Left + Right Path:
       - shiftright/index.md
       - Runtime: shiftright/cwpp.md
