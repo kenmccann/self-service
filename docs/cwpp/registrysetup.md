@@ -96,4 +96,4 @@ Once the registry is connected, it will need to be configured for automated scan
 
 Once the registry has been connected and configured, Image Assurance Policies should be configured next. Click the link below to move to the next step:
 
-## [Image Assurance Policy Setup](imageassurancepolicies.md)
+## [Image Assurance Policy Setup](image-assurance-policies.md)
