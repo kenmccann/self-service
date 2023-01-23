@@ -89,7 +89,7 @@ nav:
           - 'Integrate with CI/CD': cwpp/integrate-cicd.md
         - Phase 2:
           - Review Default Policies: cwpp/review-default-policies.md
-          - Creating Image Assurance Policies: cwpp/image-assurance-policies.md
+          - Creating Custom Assurance Policies: cwpp/image-assurance-policies.md
           - RBAC: cwpp/rbac.md
           - Configuring Response Policies: cwpp/configure-response-policies.md
           - Integrate with SIEM: cwpp/integrate-seim.md
@@ -125,7 +125,8 @@ nav:
           - 'Integrate with CI/CD': cwpp/integrate-cicd.md
         - Phase 2:
           - Review Default Policies: cwpp/review-default-policies.md
-          - Creating Image Assurance Policies: cwpp/image-assurance-policies.md
+          - Creating Custom Assurance Policies: cwpp/image-assurance-policies.md
+          - Creating Custom Runtime Policies: cwpp/custom-runtime-policies.md
           - RBAC: cwpp/rbac.md
           - Configuring Response Policies: cwpp/configure-response-policies.md
           - Integrate with SIEM: cwpp/integrate-seim.md
