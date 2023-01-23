@@ -71,6 +71,10 @@ nav:
         - Phase 1:
           - Getting Started: scs/getting-started.md
           - Integrate with SCM: scs/integrate-scm.md
+          - First Repository Scan: scs/first-repo-scan.md
+          - Baseline Build Assurance: scs/baseline-build-assurance.md
+          - Integrate CI/CD Scanning: scs/integrate-cicd-code-scanning.md
+          - Developer Onboarding: scs/developer-onboarding.md
         - Phase 2:
           - None
       - 'CWPP':
