@@ -49,6 +49,8 @@ extra:
       link: https://twitter.com/AquaSecTeam
     - icon: fontawesome/solid/paper-plane
       link: mailto:services@aquasec.com
+  version:
+    provider: mike
 
 # Navigation
 nav:
